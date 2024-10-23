@@ -1,0 +1,12 @@
+.app {
+  width: 100vw;
+  overflow: hidden;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 35px;
+    height: 100vh;
+  }
+}

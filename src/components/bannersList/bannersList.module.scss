@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 0.1;
+    margin: 5px;
+    padding: 5px 0;
+    border-radius: 20px;
+    background-color: rgb(220, 220, 220);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.banner.active {
+    flex: 0.5;
+}
