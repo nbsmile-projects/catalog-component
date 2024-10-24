@@ -1,15 +1,19 @@
 .banner {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    flex-direction: column;
+    width: 80%;
     flex: 0.1;
     margin: 5px;
     padding: 5px 0;
     border-radius: 20px;
     background-color: rgb(220, 220, 220);
-    transition: 0.3s;
+    transition: 0.5s;
     cursor: pointer;
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 .banner.active {
