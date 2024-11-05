@@ -1,13 +1,18 @@
 .catalog {
+    margin: 20px 0;
+    width: 100%;
     display: none;
     opacity: 0;
-    transition-duration: 0.5s;
+    transition-duration: 0.5s ease-in;
     transition-behavior: allow-discrete;
 }
 
 .catalog.active {
-    display: block;
     opacity: 1;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    gap: 10px;
 
     @starting-style {
         opacity: 0;

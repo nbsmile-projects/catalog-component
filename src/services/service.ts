@@ -1,5 +1,6 @@
 export type Section = {
-    category: string
+    category: string,
+    catalog: (string[])[]
 }
 
 export type Sections = Section[];

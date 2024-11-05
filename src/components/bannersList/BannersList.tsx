@@ -37,7 +37,7 @@ const BannersList = () => {
                     key={i}
                     data-key={i}>
                     <h2>{banner.category}</h2>
-                    <Catalog catalogsRefs={catalogsRefs} catalogKey={i} ref={showCatalogFunctionRef} />
+                    <Catalog catalogList={banner.catalog} catalogsRefs={catalogsRefs} catalogKey={i} ref={showCatalogFunctionRef} />
                 </div >
             )
         })

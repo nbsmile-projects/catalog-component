@@ -1,21 +1,24 @@
 .banner {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    flex: 0.1;
-    margin: 5px;
-    padding: 5px 0;
-    border-radius: 20px;
-    background-color: rgb(220, 220, 220);
-    transition: 0.5s;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    flex: 0.05;
+    transition: 0.3s;
     cursor: pointer;
+    margin: 3px 0;
 
     h2 {
-        font-size: 20px;
+        border-radius: 20px;
+        padding: 6px;
+        width: 100%;
+        font-size: 18px;
         text-align: center;
+        background-color: rgb(220, 220, 220);
     }
 }
 
 .banner.active {
-    flex: 0.5;
+    flex: 1;
 }

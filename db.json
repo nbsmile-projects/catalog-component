@@ -1,22 +1,322 @@
 {
     "sections": [
         {
-            "category": "Головные уборы"
+            "category": "Головные уборы",
+            "catalog": [
+                [
+                    "/headwear/model1/first.avif",
+                    "/headwear/model1/second.avif",
+                    "/headwear/model1/third.avif",
+                    "/headwear/model1/fourth.avif",
+                    "/headwear/model1/fifth.avif",
+                    "/headwear/model1/sixth.avif"
+                ],
+                [
+                    "/headwear/model2/first.avif",
+                    "/headwear/model2/second.avif",
+                    "/headwear/model2/third.avif",
+                    "/headwear/model2/fourth.avif",
+                    "/headwear/model2/fifth.avif",
+                    "/headwear/model2/sixth.avif"
+                ],
+                [
+                    "/headwear/model3/first.avif",
+                    "/headwear/model3/second.avif",
+                    "/headwear/model3/third.avif",
+                    "/headwear/model3/fourth.avif",
+                    "/headwear/model3/fifth.avif",
+                    "/headwear/model3/sixth.avif"
+                ],
+                [
+                    "/headwear/model4/first.avif",
+                    "/headwear/model4/second.avif",
+                    "/headwear/model4/third.avif",
+                    "/headwear/model4/fourth.avif",
+                    "/headwear/model4/fifth.avif",
+                    "/headwear/model4/sixth.avif"
+                ],
+                [
+                    "/headwear/model5/first.avif",
+                    "/headwear/model5/second.avif",
+                    "/headwear/model5/third.avif",
+                    "/headwear/model5/fourth.avif",
+                    "/headwear/model5/fifth.avif",
+                    "/headwear/model5/sixth.avif"
+                ],
+                [
+                    "/headwear/model6/first.avif",
+                    "/headwear/model6/second.avif",
+                    "/headwear/model6/third.avif",
+                    "/headwear/model6/fourth.avif",
+                    "/headwear/model6/fifth.avif",
+                    "/headwear/model6/sixth.avif"
+                ]
+            ]
         },
         {
-            "category": "Худи"
+            "category": "Худи",
+            "catalog": [
+                [
+                    "/hoodie/model1/first.avif",
+                    "/hoodie/model1/second.avif",
+                    "/hoodie/model1/third.avif",
+                    "/hoodie/model1/fourth.avif",
+                    "/hoodie/model1/fifth.avif",
+                    "/hoodie/model1/sixth.avif"
+                ],
+                [
+                    "/hoodie/model2/first.avif",
+                    "/hoodie/model2/second.avif",
+                    "/hoodie/model2/third.avif",
+                    "/hoodie/model2/fourth.avif",
+                    "/hoodie/model2/fifth.avif",
+                    "/hoodie/model2/sixth.avif"
+                ],
+                [
+                    "/hoodie/model3/first.avif",
+                    "/hoodie/model3/second.avif",
+                    "/hoodie/model3/third.avif",
+                    "/hoodie/model3/fourth.avif",
+                    "/hoodie/model3/fifth.avif",
+                    "/hoodie/model3/sixth.avif"
+                ],
+                [
+                    "/hoodie/model4/first.avif",
+                    "/hoodie/model4/second.avif",
+                    "/hoodie/model4/third.avif",
+                    "/hoodie/model4/fourth.avif",
+                    "/hoodie/model4/fifth.avif",
+                    "/hoodie/model4/sixth.avif"
+                ],
+                [
+                    "/hoodie/model5/first.avif",
+                    "/hoodie/model5/second.avif",
+                    "/hoodie/model5/third.avif",
+                    "/hoodie/model5/fourth.avif",
+                    "/hoodie/model5/fifth.avif",
+                    "/hoodie/model5/sixth.avif"
+                ],
+                [
+                    "/hoodie/model6/first.avif",
+                    "/hoodie/model6/second.avif",
+                    "/hoodie/model6/third.avif",
+                    "/hoodie/model6/fourth.avif",
+                    "/hoodie/model6/fifth.avif",
+                    "/hoodie/model6/sixth.avif"
+                ]
+            ]
         },
         {
-            "category": "Свитшоты"
+            "category": "Пуловеры",
+            "catalog": [
+                [
+                    "/pullover/model1/first.avif",
+                    "/pullover/model1/second.avif",
+                    "/pullover/model1/third.avif",
+                    "/pullover/model1/fourth.avif",
+                    "/pullover/model1/fifth.avif",
+                    "/pullover/model1/sixth.avif"
+                ],
+                [
+                    "/pullover/model2/first.avif",
+                    "/pullover/model2/second.avif",
+                    "/pullover/model2/third.avif",
+                    "/pullover/model2/fourth.avif",
+                    "/pullover/model2/fifth.avif",
+                    "/pullover/model2/sixth.avif"
+                ],
+                [
+                    "/pullover/model3/first.avif",
+                    "/pullover/model3/second.avif",
+                    "/pullover/model3/third.avif",
+                    "/pullover/model3/fourth.avif",
+                    "/pullover/model3/fifth.avif",
+                    "/pullover/model3/sixth.avif"
+                ],
+                [
+                    "/pullover/model4/first.avif",
+                    "/pullover/model4/second.avif",
+                    "/pullover/model4/third.avif",
+                    "/pullover/model4/fourth.avif",
+                    "/pullover/model4/fifth.avif",
+                    "/pullover/model4/sixth.avif"
+                ],
+                [
+                    "/pullover/model5/first.avif",
+                    "/pullover/model5/second.avif",
+                    "/pullover/model5/third.avif",
+                    "/pullover/model5/fourth.avif",
+                    "/pullover/model5/fifth.avif",
+                    "/pullover/model5/sixth.avif"
+                ],
+                [
+                    "/pullover/model6/first.avif",
+                    "/pullover/model6/second.avif",
+                    "/pullover/model6/third.avif",
+                    "/pullover/model6/fourth.avif",
+                    "/pullover/model6/fifth.avif",
+                    "/pullover/model6/sixth.avif"
+                ]
+            ]
         },
         {
-            "category": "Футболки"
+            "category": "Футболки",
+            "catalog": [
+                [
+                    "/tShorts/model1/first.avif",
+                    "/tShorts/model1/second.avif",
+                    "/tShorts/model1/third.avif",
+                    "/tShorts/model1/fourth.avif",
+                    "/tShorts/model1/fifth.avif",
+                    "/tShorts/model1/sixth.avif"
+                ],
+                [
+                    "/tShorts/model2/first.avif",
+                    "/tShorts/model2/second.avif",
+                    "/tShorts/model2/third.avif",
+                    "/tShorts/model2/fourth.avif",
+                    "/tShorts/model2/fifth.avif",
+                    "/tShorts/model2/sixth.avif"
+                ],
+                [
+                    "/tShorts/model3/first.avif",
+                    "/tShorts/model3/second.avif",
+                    "/tShorts/model3/third.avif",
+                    "/tShorts/model3/fourth.avif",
+                    "/tShorts/model3/fifth.avif",
+                    "/tShorts/model3/sixth.avif"
+                ],
+                [
+                    "/tShorts/model4/first.avif",
+                    "/tShorts/model4/second.avif",
+                    "/tShorts/model4/third.avif",
+                    "/tShorts/model4/fourth.avif",
+                    "/tShorts/model4/fifth.avif",
+                    "/tShorts/model4/sixth.avif"
+                ],
+                [
+                    "/tShorts/model5/first.avif",
+                    "/tShorts/model5/second.avif",
+                    "/tShorts/model5/third.avif",
+                    "/tShorts/model5/fourth.avif",
+                    "/tShorts/model5/fifth.avif",
+                    "/tShorts/model5/sixth.avif"
+                ],
+                [
+                    "/tShorts/model6/first.avif",
+                    "/tShorts/model6/second.avif",
+                    "/tShorts/model6/third.avif",
+                    "/tShorts/model6/fourth.avif",
+                    "/tShorts/model6/fifth.avif",
+                    "/tShorts/model6/sixth.avif"
+                ]
+            ]
         },
         {
-            "category": "Штаны"
+            "category": "Штаны",
+            "catalog": [
+                [
+                    "/trousers/model1/first.avif",
+                    "/trousers/model1/second.avif",
+                    "/trousers/model1/third.avif",
+                    "/trousers/model1/fourth.avif",
+                    "/trousers/model1/fifth.avif",
+                    "/trousers/model1/sixth.avif"
+                ],
+                [
+                    "/trousers/model2/first.avif",
+                    "/trousers/model2/second.avif",
+                    "/trousers/model2/third.avif",
+                    "/trousers/model2/fourth.avif",
+                    "/trousers/model2/fifth.avif",
+                    "/trousers/model2/sixth.avif"
+                ],
+                [
+                    "/trousers/model3/first.avif",
+                    "/trousers/model3/second.avif",
+                    "/trousers/model3/third.avif",
+                    "/trousers/model3/fourth.avif",
+                    "/trousers/model3/fifth.avif",
+                    "/trousers/model3/sixth.avif"
+                ],
+                [
+                    "/trousers/model4/first.avif",
+                    "/trousers/model4/second.avif",
+                    "/trousers/model4/third.avif",
+                    "/trousers/model4/fourth.avif",
+                    "/trousers/model4/fifth.avif",
+                    "/trousers/model4/sixth.avif"
+                ],
+                [
+                    "/trousers/model5/first.avif",
+                    "/trousers/model5/second.avif",
+                    "/trousers/model5/third.avif",
+                    "/trousers/model5/fourth.avif",
+                    "/trousers/model5/fifth.avif",
+                    "/trousers/model5/sixth.avif"
+                ],
+                [
+                    "/trousers/model6/first.avif",
+                    "/trousers/model6/second.avif",
+                    "/trousers/model6/third.avif",
+                    "/trousers/model6/fourth.avif",
+                    "/trousers/model6/fifth.avif",
+                    "/trousers/model6/sixth.avif"
+                ]
+            ]
         },
         {
-            "category": "Обувь"
+            "category": "Обувь",
+            "catalog": [
+                [
+                    "/shoes/model1/first.avif",
+                    "/shoes/model1/second.avif",
+                    "/shoes/model1/third.avif",
+                    "/shoes/model1/fourth.avif",
+                    "/shoes/model1/fifth.avif",
+                    "/shoes/model1/sixth.avif"
+                ],
+                [
+                    "/shoes/model2/first.avif",
+                    "/shoes/model2/second.avif",
+                    "/shoes/model2/third.avif",
+                    "/shoes/model2/fourth.avif",
+                    "/shoes/model2/fifth.avif",
+                    "/shoes/model2/sixth.avif"
+                ],
+                [
+                    "/shoes/model3/first.avif",
+                    "/shoes/model3/second.avif",
+                    "/shoes/model3/third.avif",
+                    "/shoes/model3/fourth.avif",
+                    "/shoes/model3/fifth.avif",
+                    "/shoes/model3/sixth.avif"
+                ],
+                [
+                    "/shoes/model4/first.avif",
+                    "/shoes/model4/second.avif",
+                    "/shoes/model4/third.avif",
+                    "/shoes/model4/fourth.avif",
+                    "/shoes/model4/fifth.avif",
+                    "/shoes/model4/sixth.avif"
+                ],
+                [
+                    "/shoes/model5/first.avif",
+                    "/shoes/model5/second.avif",
+                    "/shoes/model5/third.avif",
+                    "/shoes/model5/fourth.avif",
+                    "/shoes/model5/fifth.avif",
+                    "/shoes/model5/sixth.avif"
+                ],
+                [
+                    "/shoes/model6/first.avif",
+                    "/shoes/model6/second.avif",
+                    "/shoes/model6/third.avif",
+                    "/shoes/model6/fourth.avif",
+                    "/shoes/model6/fifth.avif",
+                    "/shoes/model6/sixth.avif"
+                ]
+            ]
         }
     ]
 }
