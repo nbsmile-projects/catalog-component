@@ -7,16 +7,33 @@
 
     .mainSlider {
         .mainSliderSlides {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             .innerSlider {
                 width: 400px;
+                height: 200px;
 
                 .innerSliderSlides {
-
                     img {
                         width: 100%;
+                        height: 100%;
+                        object-fit: cover;
                         border-radius: 15px;
                     }
                 }
+            }
+
+            .arrow {
+                display: none;
+                width: 50px;
+                cursor: pointer;
+                margin: 0 5px;
+            }
+
+            .arrow.active {
+                display: inline;
             }
         }
     }
