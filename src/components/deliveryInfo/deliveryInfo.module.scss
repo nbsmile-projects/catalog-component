@@ -1,0 +1,33 @@
+.deliveryInfo {
+
+    .deliveryDescription {
+        margin-top: 10px;
+        background-color: #DCDCDC;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            padding: 7px;
+            width: 48%;
+            font-size: 17px;
+            font-weight: 600;
+            border: none;
+            border-radius: 20px;
+            background-color: #DCDCDC;
+            cursor: pointer;
+        }
+    }
+
+    .note {
+        text-align: justify;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}

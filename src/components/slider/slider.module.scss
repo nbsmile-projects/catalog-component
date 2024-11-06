@@ -1,8 +1,10 @@
 .slider {
+    // position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    // width: 100%;
     height: 500px;
 
     .mainSlider {
@@ -27,14 +29,26 @@
 
             .arrow {
                 display: none;
-                width: 50px;
+                width: 45px;
                 cursor: pointer;
-                margin: 0 5px;
+                margin: 0 8px;
             }
 
             .arrow.active {
                 display: inline;
             }
         }
+    }
+
+    .mainSlider::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 1) 75%);
+        pointer-events: none;
+        z-index: 2;
     }
 }

@@ -14,11 +14,13 @@ import styles from './slider.module.scss'
 import rightArrow from "../../assets/arrows/rightArrow.svg";
 import leftArrow from "../../assets/arrows/leftArrow.svg";
 
+import { Product } from '../../services/service'
+
 type SliderProps = {
-    catalogList: (string[])[]
+    catalogList: Product[]
 }
 
-type CatalogList = (string[])[]
+type CatalogList = Product[]
 
 const Slider = ({ catalogList }: SliderProps) => {
     const [slides, setSlides] = useState<JSX.Element[]>([])
@@ -46,6 +48,7 @@ const Slider = ({ catalogList }: SliderProps) => {
                                 slidesPerView={2}
                                 spaceBetween={5}
                                 key={i}
+                                allowTouchMove={false}
                                 navigation={{
                                     nextEl: nextRef.current[i],
                                     prevEl: prevRef.current[i]
@@ -74,7 +77,7 @@ const Slider = ({ catalogList }: SliderProps) => {
                                 }}
                                 modules={[Navigation]}
                             >
-                                {model.map((img, i) => {
+                                {model.urls.map((img, i) => {
                                     return (
                                         <SwiperSlide className={styles.innerSliderSlides} key={i}>
                                             <img src={img} alt="clothImage" />
@@ -108,6 +111,9 @@ const Slider = ({ catalogList }: SliderProps) => {
                     mousewheel={true}
                     effect={'coverflow'}
                     grabCursor={true}
+                    onInit={(swiper: SwiperClass) => {
+                        swiper.update()
+                    }}
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,

@@ -1,12 +1,16 @@
 import { forwardRef, useImperativeHandle, MutableRefObject, ForwardedRef } from 'react';
 
 import { ShowCatalogFunction } from '../bannersList/BannersList';
+import ProductInfo from '../productInfo/ProductInfo';
 import Slider from '../slider/Slider';
 
 import styles from './catalog.module.scss';
 
+import { Product } from '../../services/service';
+import DeliveryInfo from '../deliveryInfo/DeliveryInfo';
+
 type CatalogProps = {
-    catalogList: (string[])[],
+    catalogList: Product[],
     catalogsRefs: MutableRefObject<HTMLDivElement[]>,
     catalogKey: number
 }
@@ -25,9 +29,9 @@ const Catalog = ({ catalogList, catalogsRefs, catalogKey }: CatalogProps, ref: F
 
     return (
         <div className={styles.catalog} ref={el => el ? catalogsRefs.current[catalogKey] = el : null}>
-            <h2>first</h2>
+            <ProductInfo />
             <Slider catalogList={catalogList} />
-            <h2>third</h2>
+            <DeliveryInfo />
         </div>
     );
 };

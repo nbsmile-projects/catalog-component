@@ -11,8 +11,9 @@
     opacity: 1;
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-columns: 1fr 1.8fr 1fr;
     gap: 10px;
+    padding: 0 40px;
 
     @starting-style {
         opacity: 0;

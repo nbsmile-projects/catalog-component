@@ -59,7 +59,7 @@ const BannersList = () => {
 
     return (
         <>
-            {loading ? <Spinner /> : null}
+            {loading ? <div className={styles.loading}><Spinner /></div> : null}
             {bannersList}
         </>
     )
