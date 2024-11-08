@@ -1,19 +1,41 @@
 .catalog {
+    position: relative;
     margin: 20px 0;
+    padding: 0 40px;
     width: 100%;
     display: none;
     opacity: 0;
     transition-duration: 0.5s ease-in;
     transition-behavior: allow-discrete;
+
+    .carousel {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1.8fr 1fr;
+        gap: 10px;
+    }
+
+    .tiles {
+        margin: 20px 0;
+    }
+
+    .changeMenuButton {
+        position: absolute;
+        left: 10px;
+        top: 0;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .changeMenuButton.active {
+        filter: invert(59%) sepia(100%) saturate(631%) hue-rotate(180deg) brightness(91%) contrast(100%);
+    }
 }
 
 .catalog.active {
     opacity: 1;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1.8fr 1fr;
-    gap: 10px;
-    padding: 0 40px;
+    display: block;
 
     @starting-style {
         opacity: 0;

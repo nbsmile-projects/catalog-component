@@ -1,10 +1,11 @@
-import { useEffect, useState, useRef, MouseEvent } from "react"
+import { useEffect, useState, useRef, MouseEvent } from 'react'
 
-import { getProducts, Sections } from "../../services/service"
+import { getProducts, Sections } from '../../services/service'
 
-import styles from "./bannersList.module.scss"
-import Spinner from "../spinner/Spinner"
-import Catalog from "../catalog/Catalog"
+import Spinner from '../spinner/Spinner'
+import Catalog from '../catalog/Catalog'
+
+import styles from './bannersList.module.scss'
 
 export type ShowCatalogFunction = {
     showCatalog: (currentCatalogKey: number) => void

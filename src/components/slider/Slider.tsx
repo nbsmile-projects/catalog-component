@@ -2,27 +2,20 @@ import { useEffect, useState, useRef } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, EffectCoverflow, Mousewheel } from 'swiper/modules'
 
-import { Swiper as SwiperClass } from 'swiper'
-
 import Spinner from '../spinner/Spinner'
 
+import styles from './slider.module.scss'
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/navigation'
-import styles from './slider.module.scss'
 
 import rightArrow from "../../assets/arrows/rightArrow.svg";
 import leftArrow from "../../assets/arrows/leftArrow.svg";
 
 import { Product } from '../../services/service'
+import { Swiper as SwiperClass } from 'swiper'
 
-type SliderProps = {
-    catalogList: Product[]
-}
-
-type CatalogList = Product[]
-
-const Slider = ({ catalogList }: SliderProps) => {
+const Slider = ({ catalogList }: { catalogList: Product[] }) => {
     const [slides, setSlides] = useState<JSX.Element[]>([])
     const [loading, setLoading] = useState(false)
 
@@ -35,7 +28,7 @@ const Slider = ({ catalogList }: SliderProps) => {
         // eslint-disable-next-line
     }, [])
 
-    const renderInternalSliders = (catalogList: CatalogList) => {
+    const renderInternalSliders = (catalogList: Product[]) => {
         const internalSliders = catalogList.map((model, i) => {
             return (
                 <SwiperSlide className={styles.mainSliderSlides} key={i}>
