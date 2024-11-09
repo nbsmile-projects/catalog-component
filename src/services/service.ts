@@ -3,7 +3,7 @@ export type Section = {
     catalog: Product[]
 }
 
-export type Sections = Section[];
+export type Sections = Section[]
 
 export type Product = {
     urls: string[]

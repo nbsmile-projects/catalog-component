@@ -1,4 +1,3 @@
-
 import BannersList from '../bannersList/BannersList'
 
 import '../../basicStyles.scss'

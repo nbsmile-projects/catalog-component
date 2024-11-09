@@ -8,9 +8,8 @@ import styles from './slider.module.scss'
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/navigation'
-
-import rightArrow from "../../assets/arrows/rightArrow.svg";
-import leftArrow from "../../assets/arrows/leftArrow.svg";
+import rightArrow from '../../assets/arrows/rightArrow.svg'
+import leftArrow from '../../assets/arrows/leftArrow.svg'
 
 import { Product } from '../../services/service'
 import { Swiper as SwiperClass } from 'swiper'
@@ -34,10 +33,10 @@ const Slider = ({ catalogList }: { catalogList: Product[] }) => {
                 <SwiperSlide className={styles.mainSliderSlides} key={i}>
                     {({ isActive }) => (
                         <>
-                            <img style={{ opacity: 0 }} ref={el => el ? prevRef.current[i] = el : ''} className={`${styles.arrow} ${isActive ? styles.active : null}`} src={leftArrow} alt="leftArrow" />
+                            <img style={{ opacity: 0 }} ref={el => el ? prevRef.current[i] = el : ''} className={`${styles.arrow} ${isActive ? styles.active : null}`} src={leftArrow} alt='leftArrow' />
                             <Swiper
                                 className={styles.innerSlider}
-                                direction={"horizontal"}
+                                direction={'horizontal'}
                                 slidesPerView={2}
                                 spaceBetween={5}
                                 key={i}
@@ -73,19 +72,19 @@ const Slider = ({ catalogList }: { catalogList: Product[] }) => {
                                 {model.urls.map((img, i) => {
                                     return (
                                         <SwiperSlide className={styles.innerSliderSlides} key={i}>
-                                            <img src={img} alt="clothImage" />
+                                            <img src={img} alt='clothImage' />
                                         </SwiperSlide>
                                     )
                                 })}
                             </Swiper>
-                            <img style={{ opacity: 1 }} ref={el => el ? nextRef.current[i] = el : ''} className={`${styles.arrow} ${isActive ? styles.active : null}`} src={rightArrow} alt="rightArrow" />
+                            <img style={{ opacity: 1 }} ref={el => el ? nextRef.current[i] = el : ''} className={`${styles.arrow} ${isActive ? styles.active : null}`} src={rightArrow} alt='rightArrow' />
                         </>
                     )}
                 </SwiperSlide>
             )
         })
 
-        setSlides(internalSliders);
+        setSlides(internalSliders)
         setLoading(false)
     }
 
@@ -104,9 +103,6 @@ const Slider = ({ catalogList }: { catalogList: Product[] }) => {
                     mousewheel={true}
                     effect={'coverflow'}
                     grabCursor={true}
-                    onInit={(swiper: SwiperClass) => {
-                        swiper.update()
-                    }}
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,

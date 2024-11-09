@@ -4,9 +4,9 @@ import styles from './spinner.module.scss'
 const Spinner = () => {
     return (
         <div className={styles.spinnerWrapper}>
-            <img src={loadingDots} alt="spinner" />
+            <img src={loadingDots} alt='spinner' />
         </div>
-    );
+    )
 }
 
-export default Spinner;
+export default Spinner

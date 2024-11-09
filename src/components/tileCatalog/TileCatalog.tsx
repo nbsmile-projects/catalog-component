@@ -30,7 +30,7 @@ const TileCatalog = ({ catalogList }: { catalogList: Product[] }) => {
                         model.urls.map((img, i) => {
                             return (
                                 <SwiperSlide className={styles.swiperSlides} key={i}>
-                                    <img src={img} alt="clothImage" />
+                                    <img src={img} alt='clothImage' />
                                 </SwiperSlide>
                             )
                         })
@@ -38,9 +38,7 @@ const TileCatalog = ({ catalogList }: { catalogList: Product[] }) => {
                 </Swiper >
             )
         })
-        console.log(renderedTiles)
         setTilesList(renderedTiles)
-        // setLoading(false)
     }
 
     return (

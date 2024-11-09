@@ -1,6 +1,5 @@
 import { forwardRef, useImperativeHandle, MutableRefObject, ForwardedRef, useState, useRef } from 'react'
 
-import { ShowCatalogFunction } from '../bannersList/BannersList'
 import ProductInfo from '../productInfo/ProductInfo'
 import DeliveryInfo from '../deliveryInfo/DeliveryInfo'
 import TileCatalog from '../tileCatalog/TileCatalog'
@@ -9,6 +8,7 @@ import Slider from '../slider/Slider'
 import styles from './catalog.module.scss'
 import tiles from '../../assets/anotherIcons/tiles.svg'
 
+import { ShowCatalogFunction } from '../bannersList/BannersList'
 import { Product } from '../../services/service'
 
 type CatalogProps = {
@@ -52,7 +52,7 @@ const Catalog = ({ catalogList, catalogsRefs, catalogKey }: CatalogProps, ref: F
 
     return (
         <div className={styles.catalog} ref={el => el ? catalogsRefs.current[catalogKey] = el : null}>
-            <img className={styles.changeMenuButton} onClick={onChangeMenu} ref={changeMenuButtonRef} src={tiles} alt="changeMenu" />
+            <img className={styles.changeMenuButton} onClick={onChangeMenu} ref={changeMenuButtonRef} src={tiles} alt='changeMenu' />
             {catalogView === 'carousel' ? (
                 <div className={styles.carousel}>
                     <ProductInfo />
@@ -67,7 +67,7 @@ const Catalog = ({ catalogList, catalogsRefs, catalogKey }: CatalogProps, ref: F
                     </div>
                 )}
         </div>
-    );
-};
+    )
+}
 
-export default forwardRef(Catalog);
+export default forwardRef(Catalog)
